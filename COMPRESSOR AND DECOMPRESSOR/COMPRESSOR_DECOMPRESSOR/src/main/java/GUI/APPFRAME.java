@@ -27,7 +27,7 @@ public class APPFRAME extends JFrame implements ActionListener{
     APPFRAME(){
         
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        
+        this.setLayout(null);
         compressButton = new JButton ("select file to compress");
         compressButton.setBounds(20,100,200,30);
         compressButton.addActionListener(this);
